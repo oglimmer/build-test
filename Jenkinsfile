@@ -7,4 +7,11 @@ pipeline {
             }
         }
     }
+    post {
+      failure {
+        mail to: 'oli@zimpasser.de',
+             subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
+             body: "Something is wrong with ${env.BUILD_URL}"
+      }
+    }
 }
