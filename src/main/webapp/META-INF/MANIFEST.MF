@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+git-url: https://github.com/oglimmer/scg
+Built-By: oli
+creation-date: 1521667215428
+project-version: 0.1-SNAPSHOT
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_152
+git-commit: f73a962067ae5bef5845cb504355aa08e704ff56
+
