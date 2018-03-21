@@ -24,7 +24,7 @@ public class ProcessLoop {
 	public ProcessLoop(CommandLine commandLine) {
 		this.commandLine = commandLine;
 	}
-
+X
 	public void loop() {
 		try {
 			runProcessingLoop();
